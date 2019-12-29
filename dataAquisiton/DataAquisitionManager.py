@@ -9,8 +9,8 @@ import config.Constants as config
 from threading import Thread
 
 
-
 class CommPortReader(object):
+    username = "etr"  # default
     trainingStarted = False;
     logging.basicConfig(
         filename=config.LOG_FILE_NAME,
@@ -27,9 +27,10 @@ class CommPortReader(object):
         connected = []
         for element in comlist:
             connected.append(element.device)
-        return
+        return connected
 
-    def startReading(self, portName):
+    def startReading(self, portName, username):
+        self.username = username  # override default username
         self.logger.info("CommPortReader.startReading(): called for " + str(portName))
         ser = serial.Serial(portName, 9600, timeout=0)
         thread = Thread(target=self.listenToPort, args=[ser])
@@ -52,8 +53,6 @@ class CommPortReader(object):
 
     def notifyServer(self):
         self.logger.info("CommPortReader.notifyServer(): value read from sernsor! sending to srever..")
-
-
 
 
 if __name__ == "__main__":

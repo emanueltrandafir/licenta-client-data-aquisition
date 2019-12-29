@@ -109,3 +109,242 @@
 2019-11-16 17:17:01 - INFO - ServerCommunication.postRace(): response = [{"raceSate":"PENDING","players":[],"name":"as2d","id":0,"distance":20},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1,"distance":100}]
 2019-11-16 17:17:01 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races/0
 2019-11-16 17:17:01 - INFO - ServerCommunication.getRace(0): response = {"raceSate":"PENDING","players":[],"name":"as2d","id":0,"distance":20}
+2019-12-29 12:22:45 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 12:23:32 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 12:23:43 - INFO - CommPortReader.getPorts()
+2019-12-29 12:23:43 - INFO - 127.0.0.1 - - [29/Dec/2019 12:23:43] "GET /licenta/data-aquisition/ HTTP/1.1" 200 -
+2019-12-29 12:57:26 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 12:57:28 - INFO - 127.0.0.1 - - [29/Dec/2019 12:57:28] "GET / HTTP/1.1" 404 -
+2019-12-29 12:57:28 - INFO - 127.0.0.1 - - [29/Dec/2019 12:57:28] "GET / HTTP/1.1" 404 -
+2019-12-29 12:57:39 - INFO - CommPortReader.getPorts()
+2019-12-29 12:57:39 - INFO - 127.0.0.1 - - [29/Dec/2019 12:57:39] "GET /licenta/data-aquisition/ HTTP/1.1" 200 -
+2019-12-29 12:59:36 - INFO - CommPortReader.getPorts()
+2019-12-29 12:59:36 - INFO - 127.0.0.1 - - [29/Dec/2019 12:59:36] "GET /licenta/data-aquisition/ HTTP/1.1" 200 -
+2019-12-29 13:02:11 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:30:09 - INFO - 127.0.0.1 - - [29/Dec/2019 13:30:09] "GET /licenta/data-aquisition/ports HTTP/1.1" 404 -
+2019-12-29 13:30:18 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:30:25 - INFO - CommPortReader.getPorts()
+2019-12-29 13:30:25 - INFO - 127.0.0.1 - - [29/Dec/2019 13:30:25] "GET /licenta/data-aquisition/ports HTTP/1.1" 200 -
+2019-12-29 13:33:52 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:37:27 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:38:07 - ERROR - Exception on /licenta/data-aquisition/start [POST]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 20, in startReading
+    logger.info("FrontEndCommunicaton.startReading(): " + params)
+TypeError: can only concatenate str (not "NoneType") to str
+2019-12-29 13:38:07 - INFO - 127.0.0.1 - - [29/Dec/2019 13:38:07] "POST /licenta/data-aquisition/start HTTP/1.1" 500 -
+2019-12-29 13:39:06 - ERROR - Exception on /licenta/data-aquisition/start [POST]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 20, in startReading
+    logger.info("FrontEndCommunicaton.startReading(): " + params)
+TypeError: can only concatenate str (not "NoneType") to str
+2019-12-29 13:39:06 - INFO - 127.0.0.1 - - [29/Dec/2019 13:39:06] "POST /licenta/data-aquisition/start HTTP/1.1" 500 -
+2019-12-29 13:41:41 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:43:26 - ERROR - Exception on /licenta/data-aquisition/start [POST]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 20, in startReading
+    logger.info("FrontEndCommunicaton.startReading(): " + params)
+TypeError: can only concatenate str (not "NoneType") to str
+2019-12-29 13:43:26 - INFO - 127.0.0.1 - - [29/Dec/2019 13:43:26] "POST /licenta/data-aquisition/start HTTP/1.1" 500 -
+2019-12-29 13:44:31 - ERROR - Exception on /licenta/data-aquisition/start [POST]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 20, in startReading
+    logger.info("FrontEndCommunicaton.startReading(): " + params)
+TypeError: can only concatenate str (not "NoneType") to str
+2019-12-29 13:44:31 - INFO - 127.0.0.1 - - [29/Dec/2019 13:44:31] "POST /licenta/data-aquisition/start HTTP/1.1" 500 -
+2019-12-29 13:45:20 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:45:25 - ERROR - Exception on /licenta/data-aquisition/start [POST]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 20, in startReading
+    logger.info("FrontEndCommunicaton.startReading(): " + params)
+TypeError: can only concatenate str (not "dict") to str
+2019-12-29 13:45:25 - INFO - 127.0.0.1 - - [29/Dec/2019 13:45:25] "POST /licenta/data-aquisition/start HTTP/1.1" 500 -
+2019-12-29 13:54:59 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:56:25 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:56:41 - INFO - FrontEndCommunicaton.startReading(): {'userName': 'A', 'portName': 'B'}
+2019-12-29 13:58:11 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:59:14 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:59:18 - ERROR - Exception on /licenta/data-aquisition/start [POST]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 21, in startReading
+    logger.info("FrontEndCommunicaton.startReading(): " + params.userName + " , " +params.portName)
+AttributeError: 'dict' object has no attribute 'userName'
+2019-12-29 13:59:18 - INFO - 127.0.0.1 - - [29/Dec/2019 13:59:18] "POST /licenta/data-aquisition/start HTTP/1.1" 500 -
+2019-12-29 13:59:52 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 13:59:55 - INFO - FrontEndCommunicaton.startReading(): A , B
+2019-12-29 13:59:55 - ERROR - Exception on /licenta/data-aquisition/start [POST]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 22, in startReading
+    commPortReader.startReading(params.portName, params.userName)
+AttributeError: 'dict' object has no attribute 'portName'
+2019-12-29 13:59:55 - INFO - 127.0.0.1 - - [29/Dec/2019 13:59:55] "POST /licenta/data-aquisition/start HTTP/1.1" 500 -
+2019-12-29 14:00:58 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 14:01:07 - INFO - FrontEndCommunicaton.startReading(): A , B
+2019-12-29 14:01:07 - INFO - CommPortReader.startReading(): called for B
+2019-12-29 14:01:07 - ERROR - Exception on /licenta/data-aquisition/start [POST]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 22, in startReading
+    commPortReader.startReading(params.get('portName'), params.get('userName'))
+  File "D:\workspaces\python\licenta-client-data-aquisition\dataAquisiton\DataAquisitionManager.py", line 35, in startReading
+    ser = serial.Serial(portName, 9600, timeout=0)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'B': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2019-12-29 14:01:07 - INFO - 127.0.0.1 - - [29/Dec/2019 14:01:07] "POST /licenta/data-aquisition/start HTTP/1.1" 500 -
+2019-12-29 14:03:23 - INFO - CommPortReader.getPorts()
+2019-12-29 14:03:23 - ERROR - Exception on /licenta/data-aquisition/ports [GET]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 14, in getPorts
+    logger.info("FrontEndCommunicaton.getPorts(): " + json)
+TypeError: can only concatenate str (not "Response") to str
+2019-12-29 14:03:23 - INFO - 127.0.0.1 - - [29/Dec/2019 14:03:23] "GET /licenta/data-aquisition/ports?= HTTP/1.1" 500 -
+2019-12-29 14:03:33 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 14:03:38 - INFO - CommPortReader.getPorts()
+2019-12-29 14:03:38 - ERROR - Exception on /licenta/data-aquisition/ports [GET]
+Traceback (most recent call last):
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\programs\anaconda\envs\ml_curs2\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/workspaces/python/licenta-client-data-aquisition/communication/FrontEndCommunication.py", line 14, in getPorts
+    logger.info("FrontEndCommunicaton.getPorts(): " + json)
+TypeError: can only concatenate str (not "Response") to str
+2019-12-29 14:03:38 - INFO - 127.0.0.1 - - [29/Dec/2019 14:03:38] "GET /licenta/data-aquisition/ports?= HTTP/1.1" 500 -
+2019-12-29 14:04:17 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 14:04:22 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 14:04:29 - INFO - CommPortReader.getPorts()
+2019-12-29 14:05:38 - INFO -  * Running on http://127.0.0.1:8070/ (Press CTRL+C to quit)
+2019-12-29 14:05:42 - INFO - CommPortReader.getPorts()
+2019-12-29 14:05:42 - INFO - FrontEndCommunicaton.getPorts()
+2019-12-29 14:05:42 - INFO - 127.0.0.1 - - [29/Dec/2019 14:05:42] "GET /licenta/data-aquisition/ports?= HTTP/1.1" 200 -
+2019-12-29 14:05:51 - INFO - CommPortReader.getPorts()
+2019-12-29 14:05:51 - INFO - FrontEndCommunicaton.getPorts()
+2019-12-29 14:05:51 - INFO - 127.0.0.1 - - [29/Dec/2019 14:05:51] "GET /licenta/data-aquisition/ports?= HTTP/1.1" 200 -
+2019-12-29 14:06:14 - INFO - CommPortReader.getPorts()
+2019-12-29 14:06:14 - INFO - FrontEndCommunicaton.getPorts()
+2019-12-29 14:06:14 - INFO - 127.0.0.1 - - [29/Dec/2019 14:06:14] "GET /licenta/data-aquisition/ports?= HTTP/1.1" 200 -
+2019-12-29 14:06:19 - INFO - CommPortReader.getPorts()
+2019-12-29 14:06:19 - INFO - FrontEndCommunicaton.getPorts()
+2019-12-29 14:06:19 - INFO - 127.0.0.1 - - [29/Dec/2019 14:06:19] "GET /licenta/data-aquisition/ports?= HTTP/1.1" 200 -
+2019-12-29 14:08:43 - INFO - 127.0.0.1 - - [29/Dec/2019 14:08:43] "GET /licenta/data-aquisition/stop HTTP/1.1" 404 -
+2019-12-29 14:16:34 - INFO - 127.0.0.1 - - [29/Dec/2019 14:16:34] "GET /licenta/data-aquisition/stop HTTP/1.1" 404 -

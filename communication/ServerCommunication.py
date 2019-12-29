@@ -2,30 +2,21 @@ import requests
 import logging
 import sys
 from model.Race import Race
-import config.Constants
+import config.Constants as config
 import json
 
 
 class ServerCommunication:
-    SERVER_URL = "http://localhost:8090/licenta"
+    SERVER_URL = config.SERVER_URL
+
     #training
     GET_RACES_PATH = "/races"
     GET_RACE_PATH = "/races/{id}"
     POST_RACE_PATH = "/races/add"
 
-    # GET_RACE_START = "/races/{id}/start"
-
-    POST_RACE_SITUATION = "/races/{id}/situation"
-    GET_RACE_SITUATION = "/race/{id}/situation"
-
-    #rooms
-    GET_ROOMS_PATH = "/rooms"
-    GET_ROOM_PATH = "/room/{id}"
-    POST_ROOM_PATH = "/room"
-
     logging.basicConfig(
-        filename='../log/app.log',
-        level=logging.INFO,
+        filename=config.LOG_FILE_NAME,
+        level=config.LOG_LEVEL,
         format='%(asctime)s - %(levelname)s - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )

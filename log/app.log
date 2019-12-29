@@ -1,0 +1,111 @@
+2019-10-26 23:28:42 - INFO - CommPortReader.getPorts()
+2019-10-26 23:28:42 - INFO - CommPortReader.startReading(): called for COM6
+2019-10-26 23:28:42 - INFO - CommPortReader.listenToPort(): called for COM6
+2019-10-26 23:30:56 - INFO - CommPortReader.getPorts()
+2019-10-26 23:30:56 - INFO - CommPortReader.startReading(): called for COM6
+2019-10-26 23:30:56 - INFO - CommPortReader.listenToPort(): called for COM6
+2019-10-26 23:34:36 - INFO - CommPortReader.getPorts()
+2019-10-26 23:34:36 - INFO - CommPortReader.startReading(): called for COM6
+2019-10-26 23:34:36 - INFO - CommPortReader.listenToPort(): called for COM6
+2019-10-26 23:34:48 - INFO - CommPortReader.getPorts()
+2019-10-26 23:34:48 - INFO - CommPortReader.startReading(): called for COM6
+2019-10-26 23:34:48 - INFO - CommPortReader.listenToPort(): called for COM6
+2019-10-26 23:41:07 - INFO - CommPortReader.getPorts()
+2019-10-26 23:41:07 - INFO - CommPortReader.startReading(): called for COM6
+2019-10-26 23:41:07 - INFO - CommPortReader.listenToPort(): called for COM6
+2019-10-26 23:41:15 - INFO - CommPortReader.stopReading()
+2019-10-26 23:41:47 - INFO - CommPortReader.getPorts()
+2019-10-26 23:41:47 - INFO - CommPortReader.startReading(): called for COM6
+2019-10-26 23:41:47 - INFO - CommPortReader.listenToPort(): called for COM6
+2019-10-26 23:41:48 - INFO - CommPortReader.notifyServer(): value read from sernsor! sending to srever..
+2019-10-26 23:41:50 - INFO - CommPortReader.notifyServer(): value read from sernsor! sending to srever..
+2019-10-26 23:41:52 - INFO - CommPortReader.notifyServer(): value read from sernsor! sending to srever..
+2019-10-26 23:41:54 - INFO - CommPortReader.notifyServer(): value read from sernsor! sending to srever..
+2019-10-26 23:41:55 - INFO - CommPortReader.stopReading()
+2019-11-02 14:42:52 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-02 14:42:52 - INFO - ServerCommunication.getRaces(): response = b'test'
+2019-11-02 14:43:42 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-02 14:44:17 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-02 14:44:17 - INFO - ServerCommunication.getRaces(): response = test
+2019-11-16 15:02:51 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:02:52 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:14:02 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:14:02 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:35:16 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:35:16 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:35:59 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:35:59 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:36:30 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:36:30 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:37:39 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:37:39 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:38:29 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:38:29 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:38:47 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:38:47 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:39:43 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:39:43 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:39:43 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add
+2019-11-16 15:41:21 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:41:21 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:41:21 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add
+2019-11-16 15:42:36 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:42:37 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:42:37 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add
+2019-11-16 15:49:17 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:49:17 - INFO - ServerCommunication.getRaces(): response = [{"players":[],"name":"as2d","id":0}]
+2019-11-16 15:49:17 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add
+2019-11-16 15:50:48 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:50:48 - INFO - ServerCommunication.getRaces(): response = [{"players":[],"name":"as2d","id":0}]
+2019-11-16 15:51:04 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:51:04 - INFO - ServerCommunication.getRaces(): response = [{"players":[],"name":"as2d","id":0}]
+2019-11-16 15:52:17 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:52:17 - INFO - ServerCommunication.getRaces(): response = [{"players":[],"name":"as2d","id":0}]
+2019-11-16 15:52:17 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"race_name": "testing", "created_by": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 15:52:36 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:52:36 - INFO - ServerCommunication.getRaces(): response = [{"players":[],"name":"as2d","id":0}]
+2019-11-16 15:52:36 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"race_name": "testing", "created_by": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 15:53:50 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:53:50 - INFO - ServerCommunication.getRaces(): response = [{"players":[],"name":"as2d","id":0}]
+2019-11-16 15:53:50 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"race_name": "testing", "created_by": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 15:54:07 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:54:07 - INFO - ServerCommunication.getRaces(): response = [{"players":[],"name":"as2d","id":0}]
+2019-11-16 15:54:07 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"race_name": "testing", "created_by": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 15:55:32 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:55:51 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:55:51 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:55:51 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "testing", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 15:57:09 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:57:09 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:57:09 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "testing", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 15:59:58 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 15:59:59 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 15:59:59 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "testing", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 16:01:08 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 16:01:08 - INFO - ServerCommunication.getRaces(): response = [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0}]
+2019-11-16 16:01:08 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "testing", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 16:01:08 - INFO - ServerCommunication.postRace(): response from server: [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1}]
+2019-11-16 16:01:46 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 16:01:46 - INFO - ServerCommunication.getRaces(): response = [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1}]
+2019-11-16 16:25:59 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 16:25:59 - INFO - ServerCommunication.getRaces(): response = []
+2019-11-16 16:25:59 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "testing", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 16:25:59 - INFO - ServerCommunication.postRace(): response = [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0}]
+2019-11-16 16:31:28 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 16:31:28 - INFO - ServerCommunication.getRaces(): response = [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0}]
+2019-11-16 16:31:28 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "testing", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 16:31:28 - INFO - ServerCommunication.postRace(): response = [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1}]
+2019-11-16 16:32:10 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 16:32:10 - INFO - ServerCommunication.getRaces(): response = [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1}]
+2019-11-16 16:32:10 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "testing", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 16:32:10 - INFO - ServerCommunication.postRace(): response = [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":2}]
+2019-11-16 16:32:10 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "tralalla", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"]}
+2019-11-16 16:32:10 - INFO - ServerCommunication.postRace(): response = [{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":0},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":2},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"tralalla","createdBy":"emanuel_trandafir","id":3}]
+2019-11-16 16:32:10 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races/1
+2019-11-16 16:32:25 - INFO - ServerCommunication.getRace(1): response = {"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1}
+2019-11-16 17:17:01 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races
+2019-11-16 17:17:01 - INFO - ServerCommunication.getRaces(): response = [{"raceSate":"PENDING","players":[],"name":"as2d","id":0,"distance":20}]
+2019-11-16 17:17:01 - INFO - ServerCommunication.postRace(): posting race at http://localhost:8090/licenta/races/add, data = {"name": "testing", "createdBy": "emanuel_trandafir", "players": ["emanuel_trandafir"], "distance": 100}
+2019-11-16 17:17:01 - INFO - ServerCommunication.postRace(): response = [{"raceSate":"PENDING","players":[],"name":"as2d","id":0,"distance":20},{"raceSate":"PENDING","players":["emanuel_trandafir"],"name":"testing","createdBy":"emanuel_trandafir","id":1,"distance":100}]
+2019-11-16 17:17:01 - INFO - ServerCommunication.getRaces(): request = GET, url = http://localhost:8090/licenta/races/0
+2019-11-16 17:17:01 - INFO - ServerCommunication.getRace(0): response = {"raceSate":"PENDING","players":[],"name":"as2d","id":0,"distance":20}
